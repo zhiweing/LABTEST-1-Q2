@@ -1,6 +1,6 @@
 package lab.test.pkg1.q2;
 import java.util.Scanner;
-// create public class called Viva1Q2
+// create public class called LABTEST1Q2
 public class LABTEST1Q2 {
  // create main method
     public static void main(String[] args) {
