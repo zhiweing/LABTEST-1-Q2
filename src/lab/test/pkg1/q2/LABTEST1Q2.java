@@ -1,11 +1,16 @@
 package lab.test.pkg1.q2;
 import java.util.Scanner;
+// create public class called Viva1Q2
 public class LABTEST1Q2 {
+ // create main method
     public static void main(String[] args) {
-      Scanner x=new Scanner(System.in);
+        // create object(input) of a Scanner
+      Scanner imput=new Scanner(System.in);
       //Prompt user to enter the integers
         System.out.println("Enter an integers: ");
-        int originalInt=x.nextInt(); 
+        int originalInt=imput.nextInt(); 
+        
+        
         int digit,sign=1;
         String reverseInt="";
         
@@ -14,7 +19,7 @@ public class LABTEST1Q2 {
             sign=-1;
             originalInt=Math.abs(originalInt);
         }
-        //Reverse the digits
+        //Reverse the digits by using while loop
         while (originalInt>0){
             digit=originalInt%10;
             reverseInt=reverseInt+digit;
