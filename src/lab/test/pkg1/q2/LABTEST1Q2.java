@@ -5,10 +5,10 @@ public class LABTEST1Q2 {
  // create main method
     public static void main(String[] args) {
         // create object(input) of a Scanner
-      Scanner imput=new Scanner(System.in);
+      Scanner input=new Scanner(System.in);
       //Prompt user to enter the integers
-        System.out.println("Enter an integers: ");
-        int originalInt=imput.nextInt(); 
+        System.out.print("Enter an integers: ");
+        int originalInt=input.nextInt(); 
         
         
         int digit,sign=1;
