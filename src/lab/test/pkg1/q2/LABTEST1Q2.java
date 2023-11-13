@@ -7,7 +7,7 @@ public class LABTEST1Q2 {
         // create object(input) of a Scanner
       Scanner input=new Scanner(System.in);
       //Prompt user to enter the integers
-        System.out.print("Enter an integers: ");
+        System.out.print("Enter an integers:");
         int originalInt=input.nextInt(); 
         
         
