@@ -23,10 +23,7 @@ public class LABTEST1Q2 {
             reverseInt=reverseInt*10+digit;
             originalInt=originalInt/10;
         }
-        //Add the sign back if the input was negative
-        if (sign==-1){
-            reverseInt*=-1;
-        }
+        reverseInt*=sign;
         System.out.println("Reversed integer: "+reverseInt);
         }
          
