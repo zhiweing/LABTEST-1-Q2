@@ -7,34 +7,34 @@ public class LABTEST1Q2 {
         // create object(input) of a Scanner
       Scanner input=new Scanner(System.in);
       //Prompt user to enter the integers
-        System.out.print("Enter an integers:");
+        System.out.println("Enter an integers:");
         int originalInt=input.nextInt(); 
-        
-        
-        int digit,sign=1;
-        String reverseInt="";
-        
+        int digit,sign=1,reverseInt=0;
+                
         //Handle negative sign if input is negative
         if (originalInt<0){
             sign=-1;
             originalInt=Math.abs(originalInt);
         }
+        
         //Reverse the digits by using while loop
         while (originalInt>0){
             digit=originalInt%10;
-            reverseInt=reverseInt+digit;
+            reverseInt=reverseInt*10+digit;
             originalInt=originalInt/10;
         }
         //Add the sign back if the input was negative
         if (sign==-1){
-            reverseInt="-"+reverseInt;
+            reverseInt*=-1;
         }
-          System.out.println("Reversed integer: "+reverseInt);
+        System.out.println("Reversed integer: "+reverseInt);
+        }
+         
                 
       
         
         
     }  
-    }
+    
     
 
